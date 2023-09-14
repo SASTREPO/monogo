@@ -1,0 +1,23 @@
+*log
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
+
+*.yaml
+*.yml
+contrast*log
+.DS_Store
+
+!Dockerfile
+!docker-compose.yml
+
+# Unignore contrast_security.yaml for demo purposes
+!contrast_security.yaml

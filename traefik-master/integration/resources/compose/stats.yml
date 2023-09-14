@@ -1,0 +1,4 @@
+whoami1:
+  image: containous/whoami
+whoami2:
+  image: containous/whoami

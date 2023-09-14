@@ -1,0 +1,42 @@
+wtf:
+  colors:
+    background: black
+    border:
+      focusable: darkslateblue
+  grid:
+    columns: [40, 40]
+    rows: [16]
+  refreshInterval: 1
+  mods:
+    americas_time:
+      title: "Americas"
+      type: clocks
+      enabled: true
+      locations:
+        UTC: "Etc/UTC"
+        Vancouver: "America/Vancouver"
+        New_York: "America/New_York"
+        Sao_Paolo: "America/Sao_Paulo"
+        Denver: "America/Denver"
+        Iqaluit: "America/Iqaluit"
+        Bahamas: "America/Nassau"
+        Chicago: "America/Chicago"
+      position:
+        top: 0
+        left: 0
+        height: 1
+        width: 1
+      refreshInterval: 15
+      sort: "chronological"
+    textfile:
+      enabled: true
+      filePaths:
+        - "~/.config/wtf/config.yml"
+      format: true
+      formatStyle: "vim"
+      position:
+        top: 0
+        left: 1
+        height: 1
+        width: 1
+      refreshInterval: 15
