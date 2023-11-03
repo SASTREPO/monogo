@@ -25,8 +25,8 @@
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "success",
     "engines": [18],
-    "perLanguage": 10000,
-    "perFile": 10000,
+    "perLanguage": 1440,
+    "perFile": 60,
     "severityThreshold": "medium"
   }
 }
